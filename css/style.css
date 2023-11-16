@@ -249,3 +249,33 @@ p{
   font-size: 20px;
   font-weight: 200;
 }
+
+
+@media(max-width: 410px){
+  .container{
+    max-width: 410px;
+  }
+}
+@media(max-width: 390px){
+  .cources_wrapper{
+    padding: 15px;
+  }
+  .container{
+    max-width: 390px;
+  }
+}
+@media(max-width: 370px){
+  
+  .button{
+    margin-right: 5px;
+  }
+  .container{
+    max-width: 370px;
+  }
+}
+@media(max-width: 350px){
+  
+  .container{
+    max-width: 350px;
+  }
+}
