@@ -40,14 +40,11 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* padding-top: 100px; */
     width: 100%;
-    height: calc(var(--vh, 1vh) * 100);
-    background: url('../img/intro/intro_bg.jpg');
+    height: 100vh;
+    background: url('../img/intro/intro_bg.jpg') center no-repeat;
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    
+    position: relative;
 }
 .logo{
     display: flex;
@@ -273,10 +270,23 @@ p{
   .container{
     max-width: 370px;
   }
+  .mail_link{
+    font-size: 19px;
+  }
+
 }
 @media(max-width: 350px){
   
   .container{
     max-width: 350px;
+  }
+
+  .cources_item_title_text{
+    font-size: 19px;
+    width: 270px;
+  }
+
+  .footer_wrapper{
+    padding: 15px;
   }
 }
